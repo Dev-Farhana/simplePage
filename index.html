@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Animation </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rect">    
+    <h5> This container <br> move with mouse!!! </h5> 
+    <p>I am a <br> 
+        <span class="typed-text"></span>
+        <span class="cursor blink">&nbsp;</span> 
+    </p>   
+    <div id="rect"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script>
+        gsap.to("body", {backgroundColor: "#eb4d4b", duration: 5});    
+    </script>
+
+    <script src="app.js">  </script>
+    
+</body>
+</html>
